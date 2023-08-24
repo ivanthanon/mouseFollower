@@ -1,0 +1,30 @@
+body {
+  background-color: #535bf2;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+body.no-cursor {
+  cursor: none;
+}
